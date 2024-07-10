@@ -23,6 +23,7 @@ This document outlines the flow of integrating PayPal payment processing into an
     ```
 
 ## Project Structure
+```
 project-root/
 │
 ├── server/
@@ -37,12 +38,13 @@ project-root/
 │ └── constants.js
 ├── .env
 └── package.json
+```
 
 
 Running the Application
 Install Dependencies: Run npm install to install the required dependencies.
 Start the Server: Run node main.js to start the Express.js server.
-Access the Application: Open your browser and navigate to http://localhost:8888/.
+Access the Application: Open your browser and navigate to http://localhost:8001/.
 API Endpoints
 Create Order: POST /api/orders
 
@@ -57,4 +59,6 @@ Ensure that the PayPal API credentials are correctly set in the .env file.
 The checkout.ejs file should contain the necessary HTML and JavaScript to handle the PayPal checkout process on the client side.
 The handleResponse function in utils/helper.js should handle the API responses appropriately.
 This setup modularizes the payment integration logic, making it easier to maintain and reuse across different applications.
+
+Update
 
