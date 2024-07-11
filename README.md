@@ -59,3 +59,4 @@ Ensure that the PayPal API credentials are correctly set in the .env file.
 The checkout.ejs file should contain the necessary HTML and JavaScript to handle the PayPal checkout process on the client side.
 The handleResponse function in utils/helper.js should handle the API responses appropriately.
 This setup modularizes the payment integration logic, making it easier to maintain and reuse across different applications.
+Testing
