@@ -60,3 +60,4 @@ The checkout.ejs file should contain the necessary HTML and JavaScript to handle
 The handleResponse function in utils/helper.js should handle the API responses appropriately.
 This setup modularizes the payment integration logic, making it easier to maintain and reuse across different applications.
 Test
+Test commit
